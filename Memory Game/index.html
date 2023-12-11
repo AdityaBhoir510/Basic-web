@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device- initial-scale=1.0">
+    <title>Memory card game</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+    </style>
+    <script src="index.min.js"></script>
+</head>
+
+<body onload="shuffle()">
+    <b>Memory Game</b>
+    <div class="container">
+        <div class="card apple">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/apple.jpg" alt=""></div>
+        </div>
+        <div class="card apple">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/apple.jpg" alt=""></div>
+        </div>
+        <div class="card lemon">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/lemon.jpg" alt=""></div>
+        </div>
+        <div class="card lemon">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/lemon.jpg" alt=""></div>
+        </div>
+        <div class="card cherry">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/cherry.jpg" alt=""></div>
+        </div>
+        <div class="card cherry">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/cherry.jpg" alt=""></div>
+        </div>
+        <div class="card melon">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/melon.jpg" alt=""></div>
+        </div>
+        <div class="card melon">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/melon.jpg" alt=""></div>
+        </div>
+        <div class="card pear">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/pear.jpg" alt=""></div>
+        </div>
+        <div class="card pear">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/pear.jpg" alt=""></div>
+        </div>
+        <div class="card peach">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/peach.jpg" alt=""></div>
+        </div>
+        <div class="card peach">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/peach.jpg" alt=""></div>
+        </div>
+        <div class="card kiwi">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/kiwi.jpg" alt=""></div>
+        </div>
+        <div class="card kiwi">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/kiwi.jpg" alt=""></div>
+        </div>
+        <div class="card orange">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/orange.jpg" alt=""></div>
+        </div>
+        <div class="card orange">
+            <div class="card-face front"><img src="images/question.jpeg"></div>
+            <div class="card-face back"><img src="images/orange.jpg" alt=""></div>
+        </div>
+    </div>
+    <button onclick="shuffle()">Shuffle</button>
+    <div class="winner">
+        <h1>congratulation</h1><br>
+        <p>you win !!!</p>
+        <canvas id="my-canvas"></canvas>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
