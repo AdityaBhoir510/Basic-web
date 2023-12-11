@@ -81,9 +81,15 @@ footer {
 }
 
 /* -------- card index--------- */
-#c1 {
-    background-image: url("calculator.png");
+.card{
     background-size: 120%;
     background-position-x: center;
     background-position-y: top;
+}
+#c1 {
+    background-image: url("calculator.png");
+}
+
+#c2{
+    background-image: url("memory game.png");  
 }
